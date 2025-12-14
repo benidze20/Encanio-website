@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./landing.css">
+    <script src="./landing.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <div>e</div>
+            <p>Encan.io</p>
+        </div>
+        <ul>
+            <li><a href="/dashboard.html">Dashboard</a></li>
+            <li><a href="./tasks.html">Tasks</a></li>
+            <li><a href="./users.html">Users</a></li>
+            <li><a href="./calculator.html">Calculator</a></li>
+        </ul>
+        <div class="nav-links">
+            <a href="./dashboard.html" class="btn btn-secondary">Dashboard</a>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <h1>Manage your dashboard.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+        <div class="hero-buttons">
+            <a href="/dashboard.html" class="btn btn-secondary">Get Started</a>
+            <a href="./tasks.html" class="btn btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <section class="hero-image-section">
+        <img src="https://assets.justinmind.com/wp-content/uploads/2020/02/dashboard-design-example-hcare.png" alt="">
+    </section>
+
+    <section class="features-section">
+        <h2>Why Choose Encan?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Analytics Dashboard</h3>
+                <p>Real-time charts and metrics to monitor your activity and performance</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">✓</div>
+                <h3>Task Management</h3>
+                <p>Organize and track tasks efficiently with our intuitive interface</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <h3>User Management</h3>
+                <p>Manage team members, roles, and permissions in one central place</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧮</div>
+                <h3>Calculator</h3>
+                <p>Built-in calculator tool for quick calculations and computations</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-number">1K+</div>
+                <div class="stat-label">Active Users</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">500K+</div>
+                <div class="stat-label">Tasks Completed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">99.9%</div>
+                <div class="stat-label">Uptime</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Support</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Ready to get started?</h2>
+        <p>Join thousands of teams using Encan to manage their workflows efficiently</p>
+        <div class="cta-buttons">
+            <a href="./dashboard.html" class="btn btn-cta-primary">Start Free Today</a>
+            <a href="#" class="btn btn-cta-secondary">Schedule Demo</a>
+        </div>
+    </section>
+
+    <section class="pre-footer">
+        <div class="pre-footer-inner">
+            <div class="pre-cta">
+                <h3>Stay updated with Encan</h3>
+                <p>Get product updates, tips, and early access to new features.</p>
+                <form id="newsletter-form" class="newsletter-form" action="#" aria-label="Subscribe to newsletter">
+                    <input id="newsletter-email" type="email" placeholder="Your email address" required>
+                    <button class="btn btn-subscribe" type="submit">Subscribe</button>
+                </form>
+                <div id="newsletter-success" class="success-message" role="status" aria-live="polite" hidden>
+                    Thank you — check your inbox for confirmation!
+                </div>
+            </div>
+            <div class="trust-logos">
+                <span>Trusted by</span>
+                <div class="logos">
+                    <div class="logo">Acme</div>
+                    <div class="logo">Beta</div>
+                    <div class="logo">Gamma</div>
+                    <div class="logo">Delta</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase-section">
+        <div class="separator" aria-hidden="true">
+            <svg viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0 C 300 60 900 0 1200 60 L1200 0 L0 0 Z" fill="#ffffff"/></svg>
+        </div>
+        <div class="showcase-inner">
+            <h2>What our users say</h2>
+            <p class="muted">Real feedback from teams using Encan every day</p>
+
+            <div class="testimonials" aria-roledescription="carousel">
+                <div class="testimonial-card active">
+                    <p>“Encan made collaboration effortless — our team's productivity jumped within weeks.”</p>
+                    <div class="testimonial-author">— Maria Lopez, Product Lead</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>“Beautiful UI and excellent task workflows. Support is top-notch.”</p>
+                    <div class="testimonial-author">— Alex Chen, Operations</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>“The analytics dashboard gives us the insights we really need, fast.”</p>
+                    <div class="testimonial-author">— Priya Nair, Data Analyst</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="spotlight-above-footer">
+        <div class="spotlight-inner">
+            <div class="spotlight-header">
+                <h3>Powerful features, designed for teams</h3>
+                <p class="muted">A quick look at what teams love about Encan</p>
+            </div>
+
+            <div class="spotlight-cards">
+                <div class="spot-card">
+                    <div class="spot-icon">📈</div>
+                    <h4>Insights</h4>
+                    <p>Turn data into action with real-time dashboards and alerts.</p>
+                </div>
+                <div class="spot-card">
+                    <div class="spot-icon">⚙️</div>
+                    <h4>Automations</h4>
+                    <p>Automate repetitive work and focus on high-value tasks.</p>
+                </div>
+                <div class="spot-card">
+                    <div class="spot-icon">🔒</div>
+                    <h4>Security</h4>
+                    <p>Enterprise-grade controls and audit trails to keep data safe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="enterprise-banner">
+        <div class="enterprise-inner">
+            <div class="enterprise-copy">
+                <h2>Scale with Encan Enterprise</h2>
+                <p class="muted">Custom SLAs, dedicated support, SSO and advanced access controls — built for teams that need reliability and security at scale.</p>
+                <div class="enterprise-ctas">
+                    <a href="/dashboard.html" class="btn btn-primary large">Start Free Trial</a>
+                    <a href="#contact-sales" class="btn btn-outline large">Contact Sales</a>
+                </div>
+            </div>
+
+            <div class="enterprise-form" id="contact-sales">
+                <form action="#" class="contact-form" onsubmit="return false;">
+                    <div class="form-row"><input type="text" name="name" placeholder="Full name" required></div>
+                    <div class="form-row"><input type="email" name="email" placeholder="Work email" required></div>
+                    <div class="form-row"><input type="text" name="company" placeholder="Company (optional)"></div>
+                    <div class="form-row"><button class="btn btn-primary">Request Demo</button></div>
+                </form>
+                <p class="enterprise-note muted">Or email <a href="mailto:sales@encan.io">sales@encan.io</a> — we'll respond within one business day.</p>
+            </div>
+        </div>
+    </section>
+
+
+        <section class="featured-case">
+            <div class="featured-inner">
+                <div class="case-image">
+                    <img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe?w=1200&q=80&auto=format&fit=crop" alt="Case study screenshot">
+                </div>
+                <div class="case-content">
+                    <h3>Case Study — How Acme scaled operations with Encan</h3>
+                    <p>Acme reduced project turnaround time by 38% and improved cross-team visibility using Encan's dashboards and automations. Learn how they restructured workflows and adopted our integrations.</p>
+                    <div class="case-ctas">
+                        <a href="/case-study-acme.html" class="btn btn-primary">Read the Case Study</a>
+                        <a href="/contact.html" class="btn btn-outline">Talk to Our Team</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Encan</h3>
+                <p>Dashboard & Task Management Platform</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="/dashboard.html">Dashboard</a></li>
+                    <li><a href="./tasks.html">Tasks</a></li>
+                    <li><a href="./users.html">Users</a></li>
+                    <li><a href="./calculator.html">Calculator</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <p>&copy; 2025 Encan.io. All rights reserved.</p>
+            </div>
+            <div class="footer-bottom-right">
+                <div class="footer-socials">
+                    <a href="#" aria-label="Twitter">T</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="GitHub">GH</a>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+</body>
+</html>
